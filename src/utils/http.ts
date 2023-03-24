@@ -22,7 +22,7 @@ axiosInstance.interceptors.response.use(
         console.log(status)
         if(status==200){
             if(response.data.statusCode==0){
-                return response.data
+                return response.data.result;
             }
 
         }

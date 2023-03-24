@@ -1,11 +1,14 @@
 <template>
   <div class="home">
-
+    首页
   </div>
 </template>
-<script setup lang="ts">
+<script lang="ts" setup>
 
 </script>
 <style scoped>
-
+.home{
+  width: 100%;
+  height: 100vh;
+}
 </style>
